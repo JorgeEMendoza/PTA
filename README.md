@@ -1,6 +1,6 @@
 # PTA
 
-In this repository you will find (2) programs written by Jorge E. Mendoza for Property Tax Associates.
+In this repository you will find (3) programs written by Jorge E. Mendoza for Property Tax Associates.
 
 noticesorter.jar
 	This program takes as an argument, a directory where all the received notices have been scanned into. The program then separates the scanned notices file (in pdf format), separates each notice into it's own pdf file, and sorts it according to the file system structure defined by PTA.
@@ -18,6 +18,14 @@ reportmaker.jar
 
 	Once the program UI is displayed, the argument fields will need to be filled out accordingly, in order for the program to operate correctly.
 
+BoardOrderSorter.jar
+	This program takes as an argument a directory where all the client board order documents are stored. The program will then separate the scanned documents in pdf format, separate each page of the document into its' own pdf file, scan each file for a property id, and store each file into it's corresponding folder in the specified folder in the file system.
+	
+	In order to run this program you will need to open up a command line utility, based on your operating system this might vary, navigate to the location in the file system of the jar file, and execute the command: 
+	java -cp BoardOrderSorter.jar Main
+
+	Once the program UI is displayed, the argument fields will need to be filled out appropriately in order for the program to operate correctly.
+
 Additionally, you will find some necessary programs/libraries needed to run the above programs in the Windows 10 environment.
 
 While this repository is listed as public, use of any of its programs is strictly prohibited, unless express written consent is acquired from both, the client (Property Tax Associates) AND the developer (Jorge E. Mendoza, email: jorge.edu.mendoza@gmail.com)
@@ -32,4 +40,4 @@ Proceed with caution!
 
 
 
-2020-05-15
+2020-07-17
