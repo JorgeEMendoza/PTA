@@ -19,7 +19,7 @@ reportmaker.jar
 	Once the program UI is displayed, the argument fields will need to be filled out accordingly, in order for the program to operate correctly.
 
 BoardOrderSorter.jar
-	This program takes as an argument a directory where all the client board order documents are stored. The program will then separate the scanned documents in pdf format, separate each page of the document into its' own pdf file, scan each file for a property id, and store each file into it's corresponding folder in the specified folder in the file system.
+	This program takes as an argument a directory where all the client board order documents are stored. The program will then scan each file for a property id, and store each file into its' corresponding folder in the specified folder in the file system.
 	
 	In order to run this program you will need to open up a command line utility, based on your operating system this might vary, navigate to the location in the file system of the jar file, and execute the command: 
 	java -cp BoardOrderSorter.jar Main
